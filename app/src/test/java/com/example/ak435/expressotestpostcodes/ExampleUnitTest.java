@@ -17,8 +17,10 @@ public class ExampleUnitTest {
 
 
     @Test
-    public void emailValidator_CorrectEmailSimple_ReturnsTrue() throws Exception  {
-        assertTrue (myUnit.validPostcode("BN1 9PE"));
+    public void addition_isCorrect() throws Exception {
+        MainActivity myUnit = new MainActivity();
+
+        assertTrue (myUnit.validPostcode());
     }
 
 

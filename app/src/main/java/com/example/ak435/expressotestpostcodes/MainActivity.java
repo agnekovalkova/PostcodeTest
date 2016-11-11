@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public static int addUp(int s) {
-        return s;
+    public boolean validPostcode() {
+        return true;
     }
+
 }
